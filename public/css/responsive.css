@@ -1,0 +1,123 @@
+@media only screen and (max-width: 758px){
+  header{
+    position: relative;
+  }
+  header ul{
+    width: 100%;
+    background: #0E94A0;
+    max-height: 0px;
+    overflow: hidden;
+  }
+  .showing{
+    max-height: 100em;
+  }
+  header ul li{
+    width: 100%;
+  }
+  header ul li ul{
+    position: static;
+    display: block;
+    width: 100%;
+  }
+  header ul li ul{
+    position: static;
+    display: block;
+    width: 100%;
+  }
+  header ul li ul li a:hover{
+    background: #006669;
+  }
+  header ul li ul li a{
+    padding: 10px;
+    background: #0E94A0;
+    color: #fff;
+    padding-left: 50px;
+  }
+  header ul li ul li a.logout{
+    color: red;
+  }
+  header .menu-toggle{
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 1.9em;  
+}
+.row{
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 20px;
+  justify-content: all;
+}
+.row img{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  justify-content: all;
+}
+#card{
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 15px;
+}
+.footer{
+  display: block;
+  height: auto;
+}
+#footer-nav{
+  display: inline-flex;
+}
+
+/* home  */
+.nav-left.pull-left{
+        width: 400px;
+        height: 200px;
+        /*margin-left: 38px;*/
+        margin-top: 10px;
+        text-align: center;
+      }
+.card{
+        width: 400px;
+        height: auto;
+        background-color: #f2f2f2;
+        padding: 5px;
+        margin-left: 18px;
+        box-shadow: 2px 2px 2px 2px grey;
+      }
+      .mt100{
+        margin-top: 200px;
+      }
+      .post-body{
+        font-size: 14px;
+        font-family: 'Arial', sans-serif;
+      }
+      .post-owner img{
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        margin-right: 10px;
+      }
+      .post-owner label{
+        font-size: 20px;
+        font-family: 'Arial', sans-serif;
+        font-style: italic;
+        margin-top: 10px;
+      }
+      .post-footer #media{
+        list-style: none;
+        display: inline-flex;
+        font-size: 14px;
+        margin-left: -40px;
+      }
+      .post-footer #media li{
+        padding: 5px;
+      }
+      .post-info{
+        font-size: 14px;
+      }
+
+      /* user profile  */
+      #userProfile{
+        display: none;
+      }
+}
